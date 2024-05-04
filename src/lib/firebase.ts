@@ -20,5 +20,7 @@ const provider = new EmailAuthProvider();
 const db = getFirestore(app);
 const auth = getAuth(app);
 
+console.log(auth);
+
 export { provider, auth };
 export default db;
